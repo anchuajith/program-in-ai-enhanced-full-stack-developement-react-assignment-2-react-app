@@ -19,7 +19,7 @@ function Home() {
 
                     <Link
                         to="/users"
-                        className="text-white bg-orange-500 border border-orange-500
+                        className="text-white bg-yellow-500 border border-orange-500
                                    py-2 px-4 rounded m-2 hover:bg-orange-600"
                     >
                         Go to User List

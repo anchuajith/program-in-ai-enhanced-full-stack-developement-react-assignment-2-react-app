@@ -38,7 +38,7 @@ function Users() {
 
             <table className='border border-black p-2 mx-auto'>
 
-                <thead className='bg-black text-white'>
+                <thead className='bg-yellow-500 text-white'>
                     <tr>
                         <th className='p-4'>Id</th>
                         <th className='p-4'>Name</th>
@@ -70,7 +70,7 @@ function Users() {
                             <td className='p-4'>{user.role}</td>
 
                             <td>
-                                <button className='bg-orange-500 rounded text-white p-2'>
+                                <button className='bg-yellow-500 rounded text-white p-2'>
                                      <Link to={`/users/${user.id}`}>
                                         View User
                                     </Link>

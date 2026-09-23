@@ -12,7 +12,7 @@ function About() {
                     </ul>
                 </div>
             <div className="flex justify-center m-10">
-                <button type="button" class="text-white bg-orange-500 box-border border py-2 px-3 rounded m-4">
+                <button type="button" class="text-white bg-yellow-500 box-border border py-2 px-3 rounded m-4">
                     <Link
                         to="/"
                     >

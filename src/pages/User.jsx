@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 
 function UserDetails() {
 
@@ -24,7 +25,16 @@ function UserDetails() {
 
     return (
         <div className="min-h-screen bg-pink-100 p-10">
-
+            <div className='flex justify-end'>
+                <Link
+                    to="/"
+                    className="text-orange-500 border border-orange-500
+                            py-2 px-4 rounded mt-5 hover:bg-orange-50"
+                >
+                    Go Back
+                </Link>
+            </div>
+            
             {/* Header */}
             <div className="text-center mb-10">
 
